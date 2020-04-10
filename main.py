@@ -1,8 +1,6 @@
 # main.py
-from fastapi import FastAPI
 import uvicorn
-
-app = FastAPI()
+from xuan import app
 
 
 @app.get("/")
